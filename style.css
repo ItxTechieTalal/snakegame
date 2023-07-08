@@ -25,6 +25,7 @@
 background : linear-gradient(rgb(156, 239, 156) ,rgb(241, 241, 140)) ;
 height: 80vh;
 width: 40vw;
+  border: 2px solid rgb(1, 28, 1);
 
 
 }
