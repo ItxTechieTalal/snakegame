@@ -85,6 +85,7 @@ width: 40vw;
   grid-template-columns: repeat(16, 1fr);
   grid-template-rows: repeat(16, 1fr);
   margin-right: 80px;
+     border: 2px solid rgb(1, 28, 1);
  }
  .score{
   display: flex;
