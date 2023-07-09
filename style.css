@@ -1,0 +1,152 @@
+/* /* @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+
+*{
+  box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+.container{
+ background: url(bg.jpg);
+ background-repeat: no-repeat;
+ min-height: 100vh;
+ background-size: 100vw 100vh;
+ min-width: 100vw;
+ display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.scoreBox{
+  
+
+}
+.board{
+background : linear-gradient(rgb(156, 239, 156) ,rgb(241, 241, 140)) ;
+height: 80vh;
+width: 40vw;
+
+
+}
+
+.head{
+  background: #240b3c;
+ 
+  /* background : url(head.png); */
+  /* background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #832222;
+  z-index: 22;
+
+
+}
+
+.food{
+  
+}
+
+.snake{
+  background: #219d00;
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+} 
+
+
+ */
+ *{
+  box-sizing: border-box;
+  margin: 0;
+
+  padding: 0;
+ }
+  .container{
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    min-width: 100vw;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        
+ } 
+ .game-board{
+  height: 90vmin;
+  width: 90vmin;
+  background: linear-gradient( green,rgb(1, 22, 1));
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  margin-right: 80px;
+ }
+ .score{
+  display: flex;
+
+
+  background: yellow;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-right: 50px;
+ }
+ .snake {
+  background: linear-gradient(135deg, #437a34, #3b642c);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  height: 95%;
+  width: 95%;
+  
+  border: black;
+  /* Add other styling properties */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+ .head{
+   background : url(head.png.png); 
+   background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #832222;
+  z-index: 22;
+ }
+ 
+.food{
+  background : url(food2.png);
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3d0202;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
